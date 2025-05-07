@@ -8,7 +8,7 @@ This CV is maintained in Markdown format for easy version control and collaborat
 
 ## 🔗 View My CV
 
-You can view the rendered version of my CV here: [View My Professional CV](https://yourusername.github.io/cv-repository/)
+You can view the rendered version of my CV here: [View My Professional CV](https://johnprif.github.io/resume/)
 
 ## 📝 Updates
 
