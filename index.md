@@ -12,23 +12,20 @@ title: John Priftis - Software Engineer
 
 ## 💼 PROFESSIONAL EXPERIENCE
 
-### **Senior Software Engineer** | *TechCorp Inc.* | January 2020 - Present
-- Led development of microservices architecture reducing system latency by 40%
-- Implemented CI/CD pipeline improving deployment frequency from bi-weekly to daily
-- Mentored 5 junior developers through structured code reviews and pair programming
-- Architected and developed REST APIs handling 2M+ daily requests
-- **Technologies**: Node.js, TypeScript, Docker, Kubernetes, AWS, MongoDB
+### **Software Engineer** | *Saitec Cement Industry Automations* | Aug 2024 - Present
+- Lead development of a microservices-based logistics platform managing vehicles, clients, drivers, cement recipes, warehouse inventories and reporting, improving workflow.
+- Built and deployed the first WordPress corporate website and configured a basic NAS solution for data backups, reducing manual file-sharing.
+- Scoped weighbridge ERP prototype: gathered requirements, produced UI mockups and defined data flows for future automation.
+- **Technologies**: Java, Spring/Spring Boot, Jasper Reports, Java Script, HTML, CSS, SQLite, Git, WordPress (PHP), Open Media Vault
 
-### **Software Developer** | *InnovateSoft* | March 2018 - December 2019
-- Built responsive web applications using React and Redux
-- Collaborated in agile environment with 2-week sprint cycles
-- Optimized database queries resulting in 30% performance improvement
-- **Technologies**: JavaScript, React, Redux, PostgreSQL, Git
+### **Freelance Software Developer & Tutor** | *Self-Employed* | Sept 2021 - Aug 2023
+- Delivered custom applications and automation tools for clients.
+- Provided one-on-one programming and mathematics tutoring to university students(Java, Python, algorithms, design patterns, calculus), improving student grades.
+- **Technologies**: Java, Javafx, JDBC, Python, SQL, Linux, AWS, Git
 
-### **Junior Developer** | *CodeStart Solutions* | June 2016 - February 2018
-- Developed and maintained features for e-commerce platform
-- Created automated test suites improving code coverage by 25%
-- **Technologies**: Python, Django, MySQL, Docker
+### **Software Engineer** | *Saitec Cement Industry Automations* | June 2020 - Nov 2021
+- Designed and delivered core modules of the initial logistics management system—vehicles, clients, drivers, cement recipes and warehouse inventories—enabling faster order processing.
+- **Technologies**: Java, JavaFX, JDBC, SQL, HTML, CSS, Microsoft Access Database, Git
 
 ---
 
@@ -38,7 +35,7 @@ title: John Priftis - Software Engineer
 *University of Ioannina, School of Engineering, Department of Computer Science and Engineering* | 2016 - 2023
 - Specialization in Machine Learning
 - GPA: 6.52/10.0
-- Thesis: "Implementation of an Algorithm for the Computation of the Minimum Enclosing Circle and the Voronoi Diagram"
+- Thesis: "Implementation of an Algorithm for the Calculation of the Smallest Enclosing Circle and the Voronoi Diagram"
 
 <!-- ### **Bachelor of Science in Software Engineering**
 *University of California, Berkeley* | 2010 - 2014
@@ -52,8 +49,8 @@ title: John Priftis - Software Engineer
 | Category | Skills |
 |----------|--------|
 | **Languages** | Java, C, Python, SQL, HTML, CSS |
-| **Frameworks/Libraries** | Spring/Spring Boot, JavaFX, Java Swing, JDBC, Flask |
-| **Databases** | SQLite, PostgreSQL, MongoDB, Redis, MS AccessDB |
+| **Frameworks/Libraries** | Spring/Spring Boot, JavaFX, Java Swing, JDBC, Jasper Reports |
+| **Databases** | SQLite, PostgreSQL, MongoDB, Redis, Microsoft AccessDB |
 | **Cloud & DevOps** | AWS, Docker, Kubernetes, CI/CD, Terraform, GitHub Actions |
 | **Tools** | Git, VS Code, IntelliJ, Postman, Jira, Figma |
 | **Methodologies** | Agile/Scrum, TDD, Microservices Architecture, RESTful API Design |
@@ -97,4 +94,4 @@ title: John Priftis - Software Engineer
 ## 📚 ADDITIONAL INFORMATION
 
 - **Languages**: Greek (Native), Albanian (Native), English (Fluent)
-- **Interests**: Competitive programming, algorithmic puzzles, hiking, amateur photography
+- **Interests**: Competitive programming, Problem solving, hiking, tennis, cycling, experimenting with technology, reading books
