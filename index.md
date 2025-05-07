@@ -1,7 +1,12 @@
-# JOHN DOE
+---
+layout: default
+title: John Priftis - Software Engineer
+---
+
+# JOHN PRIFTIS
 ### Software Engineer
 
-📍 San Francisco, CA | 📱 (555) 123-4567 | 📧 john.doe@email.com | 🔗 [LinkedIn](https://www.linkedin.com/in/johndoe) | 🐙 [GitHub](https://github.com/johndoe) | 🌐 [Portfolio](https://johndoe.dev)
+📍 Kiato, Greece | 📱 (30) 6940020178 | 📧 giannispriftis37@gmail.com | 🔗 [LinkedIn](https://www.linkedin.com/in/johnprif) | 🐙 [GitHub](https://github.com/johnprif) | 🌐 [Portfolio](https://johnprif.dev)
 
 ---
 
@@ -29,16 +34,16 @@
 
 ## 🎓 EDUCATION
 
-### **Master of Science in Computer Science**
-*Stanford University* | 2014 - 2016
+### **Diploma of Computer Science and Engineering (Integrated Master's)**
+*University of Ioannina, School of Engineering, Department of Computer Science and Engineering* | 2016 - 2023
 - Specialization in Machine Learning
-- GPA: 3.8/4.0
-- Thesis: "Optimizing Neural Networks for Mobile Applications"
+- GPA: 6.52/10.0
+- Thesis: "Implementation of an Algorithm for the Computation of the Minimum Enclosing Circle and the Voronoi Diagram"
 
-### **Bachelor of Science in Software Engineering**
+<!-- ### **Bachelor of Science in Software Engineering**
 *University of California, Berkeley* | 2010 - 2014
 - GPA: 3.7/4.0
-- Dean's List: 7 semesters
+- Dean's List: 7 semesters -->
 
 ---
 
@@ -46,11 +51,11 @@
 
 | Category | Skills |
 |----------|--------|
-| **Languages** | JavaScript, TypeScript, Python, Go, SQL, HTML, CSS |
-| **Frameworks/Libraries** | React, Node.js, Express, Django, Flask |
-| **Databases** | PostgreSQL, MongoDB, Redis, Elasticsearch |
+| **Languages** | Java, C, Python, SQL, HTML, CSS |
+| **Frameworks/Libraries** | Spring/Spring Boot, JavaFX, Java Swing, JDBC, Flask |
+| **Databases** | SQLite, PostgreSQL, MongoDB, Redis, MS AccessDB |
 | **Cloud & DevOps** | AWS, Docker, Kubernetes, CI/CD, Terraform, GitHub Actions |
-| **Tools** | Git, VS Code, Postman, Jira, Figma |
+| **Tools** | Git, VS Code, IntelliJ, Postman, Jira, Figma |
 | **Methodologies** | Agile/Scrum, TDD, Microservices Architecture, RESTful API Design |
 
 ---
@@ -91,5 +96,5 @@
 
 ## 📚 ADDITIONAL INFORMATION
 
-- **Languages**: English (Native), Spanish (Professional), Mandarin (Basic)
+- **Languages**: Greek (Native), Albanian (Native), English (Fluent)
 - **Interests**: Competitive programming, algorithmic puzzles, hiking, amateur photography
