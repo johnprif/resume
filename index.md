@@ -75,7 +75,7 @@ title: John Priftis - Software Engineer
 - Employed the **Factory pattern** to instantiate LaTeX/HTML parsers at runtime and the **Singleton pattern** to centralize version‑history management, improving code modularity and maintainability by decoupling parsing, UI, and state logic
 - Added import/export of `.tex` ↔ `.html` with automatic conversion, broadening user options for editing and publishing in multiple formats
 - Packaged the app as a Windows native executable using Launch4j, for seamless end‑user deployment and providing a polished native startup experience
-- **Stack**: Java 13.0.2, Swing, Launch4j, JavaI/O, Factory & Singletton Patterns
+- **Stack**: Java 13.0.2, Swing, Launch4j, JavaI/O, Factory & Singletton Patterns, Git
 
 ### **Minimal++ Compiler - Educational Compiler**
 *[https://github.com/johnprif/Compiler](https://github.com/johnprif/Compiler)*
@@ -83,7 +83,7 @@ title: John Priftis - Software Engineer
 - Implemented a **regex‑based lexer** using PLY to tokenize source code into 20+ token types (identifiers, literals, operators), ensuring 100% coverage of the minimal++ grammar
 - Built a **recursive‑descent parser** for expressions, control flow (`if`, `while`), functions, arrays, and pointers; enforced scope and type rules via a symbol table, reducing semantic errors by 90% in test cases .
 - Engineered a **code generation** pipeline that emits intermediate C code and then invokes `gcc -S` to produce x86 assembly, enabling students to inspect low‑level translations and execution flow
-- **Stack**: Python 3.9+, PLY (Lex/Yacc), GCC toolchain, regex, CI‑style scripting
+- **Stack**: Python 3.9+, PLY (Lex/Yacc), GCC toolchain, regex, CI‑style scripting, Git
 
 ### **Thesis - Smallest Enclosing Circle & Voronoi Diagram**
 *[https://github.com/johnprif/Thesis](https://github.com/johnprif/Thesis)*
