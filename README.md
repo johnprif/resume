@@ -24,4 +24,4 @@ Feel free to reach out to me via the contact information provided in the CV.
 
 ---
 
-© 2025 [Your Name]. All rights reserved.
+© 2025 John Priftis. All rights reserved.
