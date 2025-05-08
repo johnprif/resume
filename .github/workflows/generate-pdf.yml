@@ -1,0 +1,39 @@
+name: Generate PDF from index.md
+
+# Run this workflow on every push to index.md
+on:
+  push:
+    paths:
+      - index.md
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Clone the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Setup Node.js environment
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      # Step 3: Install markdown-pdf globally
+      - name: Install markdown-pdf
+        run: npm install -g markdown-pdf
+
+      # Step 4: Convert index.md to resume.pdf
+      - name: Generate resume.pdf
+        run: markdown-pdf index.md -o resume.pdf
+
+      # Step 5: Commit and push the new PDF to the repository
+      - name: Commit and push PDF
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add resume.pdf
+          git diff --cached --quiet || git commit -m "Auto-generate resume.pdf from index.md"
+          git push
