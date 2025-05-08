@@ -5,8 +5,7 @@ title: John Priftis - Software Engineer
 
 <!-- add this style block; GitHub Pages will include it in the rendered HTML -->
 <style>
-  header.page-header,
-  .site-header {
+  header {
     display: none !important;
   }
   
