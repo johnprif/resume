@@ -3,7 +3,15 @@ layout: default
 title: John Priftis - Software Engineer
 ---
 
-<p style="text-align: right;">
+<!-- add this style block; GitHub Pages will include it in the rendered HTML -->
+<style>
+  @media print {
+    .no-print { display: none !important; }
+  }
+</style>
+
+<!-- wrap your print‑trigger link in the no-print class -->
+<p class="no-print" style="text-align: right;">
   <a href="javascript:window.print()" title="Print or save as PDF">📄 Download as PDF</a>
 </p>
 
