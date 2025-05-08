@@ -10,7 +10,7 @@ title: John Priftis - Software Engineer
 ## 💼 PROFESSIONAL EXPERIENCE
 
 ### **Software Engineer** | *Saitec Cement Industry Automations* | Aug 2024 - Present
-- Lead development of a microservices-based logistics platform managing—orders, vehicles, clients, drivers, cement recipes, warehouse inventories and reporting, improving workflow.
+- Development of a microservices-based logistics platform managing—orders, vehicles, clients, drivers, cement recipes, warehouse inventories and reporting, improving workflow.
 - Built and deployed the first WordPress corporate website and configured a basic NAS solution for data backups, reducing manual file-sharing.
 - Scoped weighbridge ERP prototype: gathered requirements, produced UI mockups and defined data flows for future automation.
 - **Stack**: Java, JavaFX, Spring/Spring Boot, JUnit,  Jasper Reports, JavaScript, HTML, CSS, SQLite, Git, WordPress (PHP), Open Media Vault
