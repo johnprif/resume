@@ -8,6 +8,10 @@ title: John Priftis - Software Engineer
   header {
     display: none !important;
   }
+
+  .page-header {
+    display: none !important;
+  }
   
   @media print {
     .no-print { display: none !important; }
