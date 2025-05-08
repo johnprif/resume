@@ -13,17 +13,21 @@ jobs:
       - name: Setup Pandoc and LaTeX
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex
+          sudo apt-get install -y pandoc texlive-xetex fonts-noto-color-emoji
 
-      - name: Convert Markdown to PDF
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Convert Markdown to PDF (with emoji support)
         run: |
           pandoc index.md -o assets/john_priftis_resume.pdf \
           --pdf-engine=xelatex \
+          -V mainfont="Noto Sans" \
           -V geometry:margin=1in \
           -V fontsize=12pt
 
       - name: Upload PDF
-        uses: actions/upload-artifact@v4  # Updated to v4
+        uses: actions/upload-artifact@v4
         with:
           name: resume-pdf
           path: assets/john_priftis_resume.pdf
