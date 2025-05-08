@@ -10,6 +10,9 @@ This CV is maintained in Markdown format for easy version control and collaborat
 
 You can view the rendered version of my CV here: [View My Professional CV](https://johnprif.github.io/resume/)
 
+## 📥 Download PDF Resume
+[📄 **Download as PDF**](/assets/pdf/john_priftis_resume.pdf)
+
 ## 📝 Updates
 
 This CV is regularly updated to reflect my most recent professional experiences and skill developments. The Git history provides a complete changelog of my professional growth.
