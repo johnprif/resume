@@ -10,15 +10,15 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Pandoc and LaTeX
+      - name: Setup dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y pandoc texlive-xetex fonts-noto-color-emoji
+          sudo apt-get install -y pandoc texlive-xetex fonts-noto-core fonts-noto-extra
 
       - name: Create assets directory
         run: mkdir -p assets
 
-      - name: Convert Markdown to PDF (with emoji support)
+      - name: Convert Markdown to PDF
         run: |
           pandoc index.md -o assets/john_priftis_resume.pdf \
           --pdf-engine=xelatex \
