@@ -38,7 +38,7 @@ title: John Priftis - Software Engineer
 |----------|--------|
 | **Languages** | Java, C, Python, SQL, HTML, CSS |
 | **Frameworks & Libraries** | Spring/Spring Boot, JavaFX, Swing, JDBC, JasperReports |
-| **Databases & Storage** | SQLite, PostgreSQL, MongoDB, Redis, Microsoft Access |
+| **Databases & Storage** | SQLite, PostgreSQL, MongoDB, Redis, Microsoft Access Database|
 | **Cloud & DevOps** | AWS, Docker, Kubernetes, CI/CD, Terraform, GitHub Actions |
 | **Build & Packaging Tools** | Maven, Gradle, Inno Setup |
 | **Testing & QA Tools** | JUnit, Mockito, Postman, Git, VS Code, IntelliJ |
