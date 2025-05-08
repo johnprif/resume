@@ -13,16 +13,16 @@ title: John Priftis - Software Engineer
 - Lead development of a microservices-based logistics platform managing—orders, vehicles, clients, drivers, cement recipes, warehouse inventories and reporting, improving workflow.
 - Built and deployed the first WordPress corporate website and configured a basic NAS solution for data backups, reducing manual file-sharing.
 - Scoped weighbridge ERP prototype: gathered requirements, produced UI mockups and defined data flows for future automation.
-- **Technologies**: Java, JavaFX, Spring/Spring Boot, Jasper Reports, JavaScript, HTML, CSS, SQLite, Git, WordPress (PHP), Open Media Vault
+- **Stack**: Java, JavaFX, Spring/Spring Boot, JUnit,  Jasper Reports, JavaScript, HTML, CSS, SQLite, Git, WordPress (PHP), Open Media Vault
 
 ### **Freelance Software Developer & Tutor** | *Self-Employed* | Sept 2021 - Aug 2023
 - Delivered custom applications and automation tools for clients.
 - Provided one-on-one programming and mathematics tutoring to university students(Java, Python, algorithms, design patterns, calculus), improving student grades.
-- **Technologies**: Java, Javafx, JDBC, Python, SQL, Linux, AWS, Git
+- **Stack**: Java, Javafx, JDBC, Python, SQL, Linux, AWS, Git
 
 ### **Software Engineer** | *Saitec Cement Industry Automations* | June 2020 - Nov 2021
 - Designed and delivered core modules of the initial logistics management system—orders, vehicles, clients, drivers, cement recipes and warehouse inventories—enabling faster order processing.
-- **Technologies**: Java, JavaFX, JDBC, SQL, HTML, CSS, Microsoft Access Database, Git
+- **Stack**: Java, JavaFX, JUnit, JDBC, SQL, HTML, CSS, Microsoft Access Database, Git
 
 ## 🎓 EDUCATION
 
