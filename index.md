@@ -97,6 +97,7 @@ title: John Priftis - Software Engineer
 - Grow Greek Tourism Online by Google (2019)
 
 ## 🌟 ACHIEVEMENTS & ACTIVITIES
+
 <!-- 
 - **Speaker**: "Scaling Microservices" at DevConf 2023
 - **Hackathon Winner**: First place at CodeJam 2022
@@ -104,6 +105,7 @@ title: John Priftis - Software Engineer
 - **Tech Blog**: Write monthly articles on software architecture and best practices
 - **Mentorship**: Volunteer mentor at Code for Youth program
 -->
+
 ## 📚 ADDITIONAL INFORMATION
 
 - **Languages**: Greek (Native), Albanian (Native), English (Fluent)
