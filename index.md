@@ -3,6 +3,11 @@ layout: default
 title: John Priftis - Software Engineer
 ---
 
+<p style="text-align: right;">
+  <a href="javascript:window.print()" title="Print or save as PDF">📄 Download as PDF</a>
+</p>
+
+
 # JOHN PRIFTIS
 ### Software Engineer
 
