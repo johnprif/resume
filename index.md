@@ -6,7 +6,7 @@ title: John Priftis - Software Engineer
 # JOHN PRIFTIS
 ### Software Engineer
 
-📍 Kiato, Greece | 📱 [+306940020178](tel:+306940020178) | 📧 [giannispriftis37@gmail.com](mailto:giannispriftis37@gmail.com) | 🔗 [LinkedIn](https://www.linkedin.com/in/johnprif) | 🐙 [GitHub](https://github.com/johnprif)
+📍 Kiato, Greece | 📱 [+306940020178](tel:+306940020178) | 📧 [giannispriftis37@gmail.com](mailto:giannispriftis37@gmail.com) | 🔗 [https://www.linkedin.com/in/johnprif](https://www.linkedin.com/in/johnprif) | 🐙 [GitHub](https://github.com/johnprif)
 ## 💼 PROFESSIONAL EXPERIENCE
 
 ### **Software Engineer** | *Saitec Cement Industry Automations* | Aug 2024 - Present
