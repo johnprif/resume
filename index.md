@@ -18,7 +18,7 @@ title: John Priftis - Software Engineer
 ### **Freelance Software Developer & Tutor** | *Self-Employed* | Sept 2021 - Aug 2023
 - Delivered custom applications and automation tools for clients.
 - Provided one-on-one programming and mathematics tutoring to university students(Java, Python, algorithms, design patterns, calculus), improving student grades.
-- **Stack**: Java, Javafx, JDBC, Python, SQL, Linux, AWS, Git
+- **Stack**: Java, Javafx, JUnit, JDBC, Python, SQL, Linux, AWS, Git
 
 ### **Software Engineer** | *Saitec Cement Industry Automations* | June 2020 - Nov 2021
 - Designed and delivered core modules of the initial logistics management system—orders, vehicles, clients, drivers, cement recipes and warehouse inventories—enabling faster order processing.
