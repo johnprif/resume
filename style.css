@@ -1,0 +1,358 @@
+/**
+ * styles.css - External stylesheet for John Priftis CV
+ * 
+ * A modern, responsive, and print-friendly stylesheet for a professional resume.
+ * 
+ * Table of Contents:
+ * 1. Variables & Root Settings
+ * 2. Reset & Base Styles
+ * 3. Print Configuration
+ * 4. Layout Container
+ * 5. Header & Contact Info
+ * 6. Section Styles
+ * 7. Experience & Project Items
+ * 8. Skills Table
+ * 9. Additional Info Section
+ * 10. Footer
+ * 11. Print Button
+ * 12. Media Queries
+ */
+
+/* ================================================
+   1. VARIABLES & ROOT SETTINGS
+   ================================================ */
+:root {
+  /* Color palette */
+  --primary-color: #003b5c;      /* Deep blue */
+  --accent-color: #0077cc;       /* Bright blue for links */
+  --light-accent: #e8f4fc;       /* Very light blue for backgrounds */
+  --heading-color: #111;         /* Nearly black */
+  --text-color: #333;            /* Dark gray for body text */
+  --light-text: #555;            /* Medium gray for secondary text */
+  --border-color: #ddd;          /* Light gray for borders */
+  
+  /* Spacing variables */
+  --section-spacing: 1.5rem;     /* Consistent section spacing */
+  --inner-spacing: 1rem;         /* Inner element spacing */
+  --item-spacing: 1.2rem;        /* Space between items */
+  
+  /* Typography variables */
+  --base-font-size: 14px;        /* Base font size */
+  --heading-font-weight: 600;    /* Heading font weight */
+}
+
+/* ================================================
+   2. RESET & BASE STYLES
+   ================================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, 
+               Ubuntu, Cantarell, 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: #fff;
+  font-size: var(--base-font-size);
+}
+
+/* Typography */
+h1, h2, h3, h4 {
+  color: var(--heading-color);
+  font-weight: var(--heading-font-weight);
+}
+
+h1 {
+  font-size: 2.4rem;
+  letter-spacing: -0.5px;
+  margin-bottom: 0.2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-top: var(--section-spacing);
+  margin-bottom: var(--inner-spacing);
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--light-accent);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p, ul {
+  margin-bottom: 0.8rem;
+}
+
+/* Lists */
+ul {
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.4rem;
+  position: relative;
+}
+
+li::marker {
+  color: var(--accent-color);
+}
+
+/* ================================================
+   3. PRINT CONFIGURATION
+   ================================================ */
+@page {
+  size: A4;
+  margin: 15mm;
+}
+
+@media print {
+  body { 
+    background: none; 
+  }
+  
+  .container {
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .no-print { 
+    display: none !important; 
+  }
+  
+  a { 
+    color: var(--text-color); 
+    text-decoration: none; 
+  }
+  
+  /* Force background colors to print */
+  .skills-table th {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    background-color: var(--light-accent) !important;
+  }
+}
+
+/* ================================================
+   4. LAYOUT CONTAINER
+   ================================================ */
+.container {
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 25px 30px;
+  background: #fff;
+}
+
+@media screen {
+  .container {
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    margin: 2rem auto;
+  }
+}
+
+/* ================================================
+   5. HEADER & CONTACT INFO
+   ================================================ */
+.header {
+  text-align: center;
+  margin-bottom: var(--section-spacing);
+}
+
+.role {
+  font-size: 1.2rem;
+  color: var(--light-text);
+  margin-bottom: var(--inner-spacing);
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.95rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* ================================================
+   6. SECTION STYLES
+   ================================================ */
+.section {
+  margin-bottom: var(--section-spacing);
+}
+
+/* ================================================
+   7. EXPERIENCE & PROJECT ITEMS
+   ================================================ */
+.experience-item, 
+.project-item, 
+.education-item {
+  margin-bottom: var(--item-spacing);
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+
+.item-title {
+  font-weight: var(--heading-font-weight);
+  color: var(--heading-color);
+}
+
+.company, 
+.dates {
+  color: var(--accent-color);
+  font-weight: 500;
+}
+
+.dates {
+  font-size: 0.9rem;
+}
+
+.tech-stack {
+  font-style: italic;
+  color: var(--light-text);
+  font-size: 0.9rem;
+  margin-top: 0.3rem;
+}
+
+.project-link {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+/* ================================================
+   8. SKILLS TABLE
+   ================================================ */
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--inner-spacing);
+  font-size: 0.95rem;
+}
+
+.skills-table th {
+  text-align: left;
+  padding: 0.5rem;
+  background-color: var(--light-accent);
+  border: 1px solid var(--border-color);
+  font-weight: var(--heading-font-weight);
+  color: var(--primary-color);
+  width: 25%;
+}
+
+.skills-table td {
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+}
+
+/* ================================================
+   9. ADDITIONAL INFO SECTION
+   ================================================ */
+.additional-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.info-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* ================================================
+   10. FOOTER
+   ================================================ */
+footer {
+  margin-top: var(--section-spacing);
+  padding-top: var(--inner-spacing);
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--light-text);
+  font-size: 0.9rem;
+}
+
+/* ================================================
+   11. PRINT BUTTON
+   ================================================ */
+.print-button {
+  text-align: right;
+  margin-bottom: var(--inner-spacing);
+}
+
+.print-button a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--light-accent);
+  color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.print-button a:hover {
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+}
+
+/* ================================================
+   12. MEDIA QUERIES
+   ================================================ */
+@media screen and (max-width: 600px) {
+  :root {
+    --base-font-size: 13px;
+  }
+  
+  .container {
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .item-header {
+    flex-direction: column;
+  }
+  
+  .dates {
+    margin-bottom: 0.3rem;
+  }
+  
+  .additional-info {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .info-section {
+    min-width: 100%;
+  }
+}
