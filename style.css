@@ -11,7 +11,8 @@
  * 5. Header & Contact Info
  * 6. Section Styles
  * 7. Experience & Project Items
- * 8. Skills Table
+ * 8a. Technical Skills Table
+ * 8b. Professional Skills
  * 9. Additional Info Section
  * 10. Footer
  * 11. Print Button
@@ -246,7 +247,7 @@ li::marker {
 }
 
 /* ================================================
-   8. SKILLS TABLE
+   8a. TECHNICAL SKILLS TABLE
    ================================================ */
 .skills-table {
   width: 100%;
@@ -269,6 +270,34 @@ li::marker {
   padding: 0.5rem;
   border: 1px solid var(--border-color);
 }
+
+/* ================================================
+   8b. TECHNICAL SKILLS TABLE
+   ================================================ */
+.hlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1rem;
+}
+
+.hlist li {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background-color: var(--light-accent);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.hlist li::marker {
+  content: none;
+}
+
+
 
 /* ================================================
    9. ADDITIONAL INFO SECTION
