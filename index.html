@@ -9,7 +9,14 @@
   
   <!-- External CSS file -->
   <link rel="stylesheet" href="style.css">
-  
+  <!-- Modern Font Awesome (v6.7.2) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  >
+ 
   <!-- Fallback for print styling in case external CSS fails to load -->
   <style>
     @media print {
@@ -25,11 +32,7 @@
     <!-- Print button - Hidden when printing -->
     <div class="print-button no-print">
       <a href="javascript:window.print()" title="Print or save as PDF">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <polyline points="6 9 6 2 18 2 18 9"></polyline>
-          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
-          <rect x="6" y="14" width="12" height="8"></rect>
-        </svg>
+        <i class="fa-solid fa-print"></i>
         Download as PDF
       </a>
     </div>
@@ -41,45 +44,31 @@
       <div class="contact-info">
         <!-- Location -->
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
-            <circle cx="12" cy="10" r="3"></circle>
-          </svg>
+          <i class="fa-solid fa-location-dot"></i>
           <a href="https://maps.app.goo.gl/jMZPRz4ohbsxMDVS6">Kiato, Greece</a>
         </div>
         
         <!-- Phone -->
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-          </svg>
+          <i class="fa-solid fa-phone"></i>
           <a href="tel:+306940020178">+30 694 002 0178</a>
         </div>
         
         <!-- Email -->
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-            <polyline points="22,6 12,13 2,6"></polyline>
-          </svg>
+          <i class="fa-solid fa-envelope"></i>
           <a href="mailto:giannispriftis37@gmail.com">giannispriftis37@gmail.com</a>
         </div>
         
         <!-- LinkedIn -->
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-            <rect x="2" y="9" width="4" height="12"></rect>
-            <circle cx="4" cy="4" r="2"></circle>
-          </svg>
+           <i class="fa-brands fa-linkedin"></i>
           <a href="https://www.linkedin.com/in/johnprif" target="_blank" rel="noopener noreferrer">linkedin.com/in/johnprif</a>
         </div>
         
         <!-- GitHub -->
         <div class="contact-item">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-          </svg>
+          <i class="fa-brands fa-github"></i>
           <a href="https://github.com/johnprif" target="_blank" rel="noopener noreferrer">github.com/johnprif</a>
         </div>
       </div>
@@ -125,9 +114,9 @@
         </div>
         <div class="company">Self-Employed</div>
         <ul>
-          <li>Delivered custom applications and automation tools for 5+ clients, improving their operational efficiency by an average of 30%.</li>
+          <li>Delivered custom applications and automation tools for <!-- amount+ --> clients, improving their operational efficiency by an average of 30%.</li>
           <li>Provided one-on-one programming and mathematics tutoring to 20+ university students (Java, C, Python, algorithms, design patterns, calculus), consistently improving student performance and grades.</li>
-          <li>Developed reusable code libraries and automation scripts that reduced development time for similar projects by 40%.</li>
+          <li>Developed reusable code <!-- libraries --> and automation scripts that reduced development time for similar projects by 50%.</li>
         </ul>
         <div class="tech-stack"><strong>Stack:</strong> Java, JavaFX, JUnit, JDBC, C, Python, SQL, Linux, AWS, Git, Markdown</div>
       </div>
@@ -224,21 +213,45 @@
       <div class="project-item">
         <h3 class="item-title">AramosMenu - Mobile Web Menu</h3>
         <div class="project-link">
-          <a href="https://github.com/johnprif/AramosMenu" target="_blank" rel="noopener noreferrer">github.com/johnprif/AramosMenu</a>
+          <a href="https://github.com/johnprif/AramosMenu" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/AramosMenu
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+          
         </div>
         <ul>
           <li>Developed a mobile-first web app for a beach bar that reduced customer wait time by 30% and improved order accuracy by 45%.</li>
           <li>Implemented a multilingual menu (Greek/English) that increased accessibility for international tourists by 100%.</li>
           <li>Optimized for fast loading and offline usage, resulting in 90% faster page loads on poor connections.</li>
         </ul>
-        <div class="tech-stack"><strong>Stack:</strong> HTML, CSS, JavaScript (vanilla), JSON, AWS Amplify, Git, Markdown</div>
+        <div class="tech-stack"><strong>Stack:</strong> HTML, CSS, JavaScript (vanilla), JSON, AWS Amplify, CI/CD, Git, Markdown</div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-item">
+        <h3 class="item-title">Thesis - Smallest Enclosing Circle & Voronoi Diagram</h3>
+        <div class="project-link">
+          <a href="https://github.com/johnprif/Thesis" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/Thesis
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <ul>
+          <li>Implemented Sven Skyum's O(n log n) algorithm for the Smallest Enclosing Circle and Voronoi Diagram in Java 17, reducing theoretical runtime over naive methods.</li>
+          <li>Built an interactive JavaFX GUI (MVC) with zoom/pan and export features, enabling real-time geometrical visualization and analysis.</li>
+          <li>Parsed CSV/Excel inputs via ApachePOI and OpenCSV, delivering compatibility with common data formats and streamlining user workflow.</li>
+        </ul>
+        <div class="tech-stack"><strong>Stack:</strong> Java 17, JavaFX, Apache POI, OpenCSV, Red-Black VST, MVC & Singletton Patterns, Git, Markdown</div>
       </div>
       
-      <!-- Project 2 -->
+      <!-- Project 3 -->
       <div class="project-item">
         <h3 class="item-title">GoogleFromLidl - Twitter Comments Search Engine</h3>
         <div class="project-link">
-          <a href="https://github.com/johnprif/GoogleFromLidl" target="_blank" rel="noopener noreferrer">github.com/johnprif/GoogleFromLidl</a>
+          <a href="https://github.com/johnprif/GoogleFromLidl" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/GoogleFromLidl
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
         <ul>
           <li>Architected a Java Swing desktop application that indexed 50,000+ Twitter comments using Apache Lucene, with sub-second query times.</li>
@@ -248,11 +261,14 @@
         <div class="tech-stack"><strong>Stack:</strong> Java 11, Java Swing, Apache Lucene, MVC Pattern, SLF4J/Logback, Git, Markdown</div>
       </div>
       
-      <!-- Project 3 -->
+      <!-- Project 4 -->
       <div class="project-item">
-        <h3 class="item-title">AdvencedText2SpeechApp - Text-to-Speech Desktop Application</h3>
+        <h3 class="item-title">AdvencedText2SpeechApp - Text-to-Speech</h3>
         <div class="project-link">
-          <a href="https://github.com/johnprif/AdvancedText2SpeechApp" target="_blank" rel="noopener noreferrer">github.com/johnprif/AdvancedText2SpeechApp</a>
+          <a href="https://github.com/johnprif/AdvancedText2SpeechApp" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/AdvancedText2SpeechApp
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
         <ul>
           <li>Developed a Java Swing desktop application that loads and edits Word (.docx) and Excel (.xlsx) documents and converts them into spoken audio via FreeTTS.</li>
@@ -262,11 +278,14 @@
         <div class="tech-stack"><strong>Stack:</strong> Java 11, Swing, Apache POI, FreeTTS, Factory & Decorator & Facade Patterns, Launch4j, Git, Markdown</div>
       </div>
 
-    <!-- Project 4 -->
+    <!-- Project 5 -->
       <div class="project-item">
         <h3 class="item-title">AdvancedLaTexEditorView - Interactive LaTex Editor</h3>
         <div class="project-link">
-          <a href="https://github.com/johnprif/AdvancedLatexEditorView" target="_blank" rel="noopener noreferrer">github.com/johnprif/AdvancedLatexEditorView</a>
+          <a href="https://github.com/johnprif/AdvancedLatexEditorView" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/AdvancedLatexEditorView
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
         <ul>
           <li>Developed a Java Swing desktop application that lets users choose from ready‑made LaTeX templates, edit code via utility commands (e.g. “add chapter”), and manage multiple “stratagem” snapshots—enabling non‑linear editing workflows and quick rollback to prior versions.</li>
@@ -276,11 +295,14 @@
         <div class="tech-stack"><strong>Stack:</strong> Java 13, Swing, JavaI/O, Factory & Singletton Patterns, LaTeX, HTML, Launch4j, Git, Markdown</div>
       </div>
 
-    <!-- Project 5 -->
+    <!-- Project 6 -->
       <div class="project-item">
         <h3 class="item-title">Minimal++ Compiler - Educational Compiler</h3>
         <div class="project-link">
-          <a href="https://github.com/johnprif/Compiler" target="_blank" rel="noopener noreferrer">github.com/johnprif/Compiler</a>
+          <a href="https://github.com/johnprif/Compiler" target="_blank" rel="noopener noreferrer">
+            github.com/johnprif/Compiler
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
         </div>
         <ul>
           <li>Architected a full end‑to‑end teaching compiler in Python 3 for a C‑like “minimal++” language, covering lexing, recursive‑descent parsing, semantic analysis, and code generation—demonstrating mastery of all major compiler phases.</li>
@@ -289,20 +311,6 @@
           <li>Engineered a code generation pipeline that emits intermediate C code and then invokes gcc -S to produce x86 assembly, enabling students to inspect low‑level translations and execution flow.</li>
         </ul>
         <div class="tech-stack"><strong>Stack:</strong> Python 3.9+, C, PLY (Lex/Yacc), GCC toolchain, regex, CI‑style scripting, Git, Markdown</div>
-      </div>
-
-    <!-- Project 6 -->
-      <div class="project-item">
-        <h3 class="item-title">Thesis - Smallest Enclosing Circle & Voronoi Diagram</h3>
-        <div class="project-link">
-          <a href="https://github.com/johnprif/Thesis" target="_blank" rel="noopener noreferrer">github.com/johnprif/Thesis</a>
-        </div>
-        <ul>
-          <li>Implemented Sven Skyum's O(n log n) algorithm for the Smallest Enclosing Circle and Voronoi Diagram in Java 17, reducing theoretical runtime over naive methods.</li>
-          <li>Built an interactive JavaFX GUI (MVC) with zoom/pan and export features, enabling real-time geometrical visualization and analysis.</li>
-          <li>Parsed CSV/Excel inputs via ApachePOI and OpenCSV, delivering compatibility with common data formats and streamlining user workflow.</li>
-        </ul>
-        <div class="tech-stack"><strong>Stack:</strong> Java 17, JavaFX, Apache POI, OpenCSV, Red-Black VST, MVC & Singletton Patterns, Git, Markdown</div>
       </div>
 
     <!-- Project 7 -->
